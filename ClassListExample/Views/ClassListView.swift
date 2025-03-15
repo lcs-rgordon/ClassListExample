@@ -8,15 +8,21 @@
 import SwiftUI
 
 struct ClassListView: View {
+    
+    // MARK: Stored properties
+    @State var students: [String] = ["Alice", "Bob", "Charlie", "Daniela", "Bob"]
+    
+    // MARK: Computed properties
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack(spacing: 20) {
+                Text("There are \(students.count) students in the class.")
+                Text("This will soon show a scrollable list of students.")
+            }
+            .navigationTitle("Class List")
         }
-        .padding()
     }
+
 }
 
 #Preview {
