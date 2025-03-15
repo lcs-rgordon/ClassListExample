@@ -15,9 +15,8 @@ struct ClassListView: View {
     // MARK: Computed properties
     var body: some View {
         NavigationStack {
-            VStack(spacing: 20) {
-                Text("There are \(students.count) students in the class.")
-                Text("This will soon show a scrollable list of students.")
+            List(students, id: \.self) { currentStudent in
+                Text(currentStudent)
             }
             .navigationTitle("Class List")
         }
