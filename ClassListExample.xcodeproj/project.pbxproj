@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		81A845DA2D85CBA700C4D169 /* ClassListExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A845D72D85CBA700C4D169 /* ClassListExampleApp.swift */; };
+		81A845DB2D85CBA700C4D169 /* ClassListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A845D82D85CBA700C4D169 /* ClassListView.swift */; };
+		81A845DC2D85CBA700C4D169 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A845D42D85CBA700C4D169 /* Preview Assets.xcassets */; };
+		81A845DD2D85CBA700C4D169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A845D62D85CBA700C4D169 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		81A845C32D85CB9A00C4D169 /* ClassListExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassListExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A845D42D85CBA700C4D169 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81A845D62D85CBA700C4D169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81A845D72D85CBA700C4D169 /* ClassListExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListExampleApp.swift; sourceTree = "<group>"; };
+		81A845D82D85CBA700C4D169 /* ClassListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		81A845C52D85CB9A00C4D169 /* ClassListExample */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ClassListExample;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		81A845C02D85CB9A00C4D169 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		81A845BA2D85CB9A00C4D169 = {
 			isa = PBXGroup;
 			children = (
-				81A845C52D85CB9A00C4D169 /* ClassListExample */,
+				81A845D92D85CBA700C4D169 /* ClassListExample */,
 				81A845C42D85CB9A00C4D169 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,33 @@
 				81A845C32D85CB9A00C4D169 /* ClassListExample.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		81A845D52D85CBA700C4D169 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81A845D42D85CBA700C4D169 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81A845D92D85CBA700C4D169 /* ClassListExample */ = {
+			isa = PBXGroup;
+			children = (
+				81A845D72D85CBA700C4D169 /* ClassListExampleApp.swift */,
+				81A845DE2D85CBAD00C4D169 /* Views */,
+				81A845D52D85CBA700C4D169 /* Preview Content */,
+				81A845D62D85CBA700C4D169 /* Assets.xcassets */,
+			);
+			path = ClassListExample;
+			sourceTree = "<group>";
+		};
+		81A845DE2D85CBAD00C4D169 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81A845D82D85CBA700C4D169 /* ClassListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +89,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				81A845C52D85CB9A00C4D169 /* ClassListExample */,
 			);
 			name = ClassListExample;
 			packageProductDependencies = (
@@ -109,6 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A845DC2D85CBA700C4D169 /* Preview Assets.xcassets in Resources */,
+				81A845DD2D85CBA700C4D169 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A845DA2D85CBA700C4D169 /* ClassListExampleApp.swift in Sources */,
+				81A845DB2D85CBA700C4D169 /* ClassListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

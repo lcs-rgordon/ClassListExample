@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ClassListView.swift
 //  ClassListExample
 //
 //  Created by Russell Gordon on 2025-03-15.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ClassListView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ClassListView()
 }
